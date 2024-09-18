@@ -1,4 +1,4 @@
-// src/players.js
+
 const players = [
   {
     name: "Lionel Messi",
@@ -29,7 +29,7 @@ const players = [
   },
   {
     name: "Kylian Mbappé",
-    team: "Paris Saint-Germain",
+    team: "Real Madrid",
     nationality: "France",
     jerseyNumber: 7,
     age: 25,

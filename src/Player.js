@@ -1,13 +1,18 @@
-// src/Player.js
 import React from "react";
 import { Card } from "react-bootstrap";
+import "./Player.css"; 
 
 const Player = ({ name, team, nationality, jerseyNumber, age, imageUrl }) => {
   return (
-    <Card style={{ width: "18rem", margin: "10px" }}>
-      <Card.Img variant="top" src={imageUrl} alt={name} />
+    <Card className="player-card">
+      <Card.Img
+        variant="top"
+        src={imageUrl}
+        alt={name}
+        className="player-img"
+      />
       <Card.Body>
-        <Card.Title>{name}</Card.Title>
+        <Card.Title className="player-name">{name}</Card.Title>
         <Card.Text>
           <strong>Team:</strong> {team} <br />
           <strong>Nationality:</strong> {nationality} <br />
@@ -19,7 +24,7 @@ const Player = ({ name, team, nationality, jerseyNumber, age, imageUrl }) => {
   );
 };
 
-// Define default props
+
 Player.defaultProps = {
   name: "Unknown Player",
   team: "Unknown Team",

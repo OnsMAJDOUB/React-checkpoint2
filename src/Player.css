@@ -1,0 +1,41 @@
+.player-card {
+  width: 18rem; 
+  margin: 10px 20px; 
+  border: none; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.player-card:hover {
+  transform: scale(1.03); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.player-img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 250px; 
+  object-fit: cover;
+}
+
+.player-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #222; 
+  text-align: center;
+}
+
+.player-card .card-body {
+  background: #f9f9f9;
+  padding: 10px; 
+}
+h1{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #68c1d0;
+  text-shadow: 2px 2px 4px rgba(78, 76, 213, 0.3);
+
+}

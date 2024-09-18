@@ -1,0 +1,10 @@
+.players-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  background: #f0f2f5;
+  /* Add a border or a subtle drop shadow for a more defined look */
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
